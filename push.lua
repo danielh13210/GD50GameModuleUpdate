@@ -1,4 +1,4 @@
--- VirtualResolutionWindow.lua v0.2
+-- push.lua v0.2
 
 -- Copyright (c) 2017 Ulysse Ramage
 -- Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
@@ -235,4 +235,4 @@ function push:getWidth() return self._WWIDTH end
 function push:getHeight() return self._WHEIGHT end
 function push:getDimensions() return self._WWIDTH, self._WHEIGHT end
 
-VirtualResolutionWindow={refer_module=function(mutators)return push end}
+return push
